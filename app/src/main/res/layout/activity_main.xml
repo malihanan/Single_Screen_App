@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayoutStyle"
+            android:background="@android:color/black"
+            android:gravity="center">
+            <ImageView
+                style="@style/LogoIconStyle"
+                android:src="@drawable/baseline_restaurant_white_18dp"
+                />
+        </LinearLayout>
+
+        <ImageView
+            style="@style/BusinessImageStyle"
+            android:src="@drawable/spaghetti" />
+
+        <TextView
+            style="@style/HeadingTextViewStyle"
+            android:text="The Pasta People"/>
+
+        <TextView
+            style="@style/ContentTextViewStyle"
+            android:text="Get excusite Italian cuisines at our restaurant. We deliver the best of tastes, come find out. You'll be licking fingers."/>
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayoutStyle">
+            <ImageView
+                style="@style/CustomIconStyle"
+                android:src="@drawable/baseline_phone_white_18dp"
+                />
+            <TextView
+                style="@style/ContentTextViewStyle"
+                android:text="+91 432 532 4123"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayoutStyle">
+            <ImageView
+                style="@style/CustomIconStyle"
+                android:src="@drawable/baseline_email_white_18dp"
+                />
+            <TextView
+                style="@style/ContentTextViewStyle"
+                android:text="thepastapeople@gmail.com"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayoutStyle">
+            <ImageView
+                style="@style/CustomIconStyle"
+                android:src="@drawable/baseline_location_on_white_18dp"
+                />
+            <TextView
+                style="@style/ContentTextViewStyle"
+                android:text="Tithal Rd, Valsad"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HorizontalLinearLayoutStyle">
+            <ImageView
+                style="@style/CustomIconStyle"
+                android:src="@drawable/baseline_watch_later_white_18dp"
+                />
+            <TextView
+                style="@style/ContentTextViewStyle"
+                android:text="4.00 PM - 11.30 PM"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
